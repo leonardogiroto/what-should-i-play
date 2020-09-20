@@ -110,7 +110,7 @@ export const GamesList: Array<Game> = [{
   tags: ['pago'],
 }, {
   name: 'Truco',
-  description: 'A versão online do famoso e tradicional jogo de cartas Buraco!',
+  description: 'A versão online do famoso e tradicional jogo de cartas Truco!',
   link: 'https://trucoon.com.br/',
   duration: 'long',
   maxNumberOfPlayers: 4,

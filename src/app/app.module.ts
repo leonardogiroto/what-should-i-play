@@ -10,13 +10,15 @@ import { GameCardComponent } from './components/game-card/game-card.component';
 
 import { AngularMaterialModule } from './material.module';
 import { AppService } from './app.service';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FiltersComponent,
-    GameCardComponent
+    GameCardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

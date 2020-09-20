@@ -5,6 +5,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AppService } from './app.service';
 import { FiltersComponent } from './components/filters/filters.component';
+import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AngularMaterialModule } from './material.module';
 
@@ -15,6 +16,7 @@ describe('AppComponent', () => {
         AppComponent,
         HeaderComponent,
         FiltersComponent,
+        FooterComponent,
       ],
       providers: [
         AppService,
