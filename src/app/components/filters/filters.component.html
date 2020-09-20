@@ -1,0 +1,29 @@
+<div class="filters">
+  <mat-form-field appearance="outline" floatLabel="always">
+    <mat-label>Quantas pessoas?</mat-label>
+    <mat-select [formControl]="playersControl" >
+      <mat-option [value]="">Tanto faz!</mat-option>
+      <mat-option [value]="2">2 pessoas</mat-option>
+      <mat-option [value]="3">3 pessoas</mat-option>
+      <mat-option [value]="4">4 pessoas</mat-option>
+      <mat-option [value]="5">5 pessoas</mat-option>
+      <mat-option [value]="6">6 pessoas</mat-option>
+      <mat-option [value]="7">7 pessoas</mat-option>
+      <mat-option [value]="8">8 pessoas</mat-option>
+      <mat-option [value]="9">9 pessoas</mat-option>
+      <mat-option [value]="10">10 pessoas</mat-option>
+      <mat-option value="more">11 ou mais pessoas</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" floatLabel="always">
+    <mat-label>Duração</mat-label>
+    <mat-select [formControl]="durationControl" >
+      <mat-option [value]="">Tanto faz!</mat-option>
+      <mat-option value="fast">Jogo rápido!</mat-option>
+      <mat-option value="medium">Moderado.</mat-option>
+      <mat-option value="long">Mais demorado...</mat-option>
+      <mat-option value="variable">Varia muito ¯\_(ツ)_/¯</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

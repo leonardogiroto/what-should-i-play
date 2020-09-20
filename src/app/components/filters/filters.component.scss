@@ -1,0 +1,16 @@
+div.filters {
+  display: flex;
+  justify-content: center;
+
+  .mat-form-field {
+    margin: 15px
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+
+    .mat-form-field {
+      margin: 10px 0px 0px 0px;
+    }
+  }
+}

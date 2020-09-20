@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 24px;
+
+  @media screen and (max-width: 600px) {
+    margin: 24px 0px;
+  }
+}
+p.description {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}

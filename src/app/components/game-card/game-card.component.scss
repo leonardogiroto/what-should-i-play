@@ -1,0 +1,25 @@
+:host {
+  width: 100%;
+}
+
+.mat-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+
+  .mat-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1
+  }
+
+  &:hover {
+    border: 2px solid #673ab7;
+    padding: 14px;
+  }
+
+  @media screen and (max-width: 600px) {
+    min-height: 200px;
+  }
+}
