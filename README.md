@@ -4,6 +4,11 @@ Simple interface that shows a list of group games to be played with friends onli
 Games have links to sites were you can play those game / aid your group on playing them.  
 Filter by group size or games duration! :)
 
+## Published Link
+
+Application is published in Netlify.  
+Link: https://what-should-i-play.netlify.app/
+
 ## Environment
 
 Angular 10.1.2  
