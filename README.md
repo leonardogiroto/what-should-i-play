@@ -14,6 +14,8 @@ Link: https://what-should-i-play.netlify.app/
 Angular 10.1.2  
 Angular Material 10.2.1  
 Typescript 4.0.2  
+Jasmine 3.6.0  
+Cypress 5.2.1  
 
 ## Installation
 
@@ -27,10 +29,16 @@ npm install
 ng serve
 ```
 
-## Runing Unit/Integration Tests
+## Runing Unit Tests
 
 ```
 ng test
+```
+
+## Runing e2e Tests
+
+```
+npm run e2e
 ```
 
 ## Production Build
