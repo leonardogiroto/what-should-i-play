@@ -1,4 +1,4 @@
-[![build status](https://github.com/coryrylan/angular-github-actions/workflows/Build/badge.svg)](https://github.com/coryrylan/angular-github-actions/actions)
+[![build status](https://github.com/coryrylan/angular-github-actions/workflows/Build/badge.svg)](https://github.com/leonardogiroto/what-should-i-play/actions)
 
 # What Should I Play?
 
