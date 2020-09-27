@@ -15,7 +15,10 @@ Angular 10.1.2
 Angular Material 10.2.1  
 Typescript 4.0.2  
 Jasmine 3.6.0  
+Karma 5.0.0  
 Cypress 5.2.1  
+
+Integrated with Github Actions for running build and tests.
 
 ## Installation
 
