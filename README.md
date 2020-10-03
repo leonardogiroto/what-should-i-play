@@ -17,6 +17,7 @@ Typescript 4.0.2
 Jasmine 3.6.0  
 Karma 5.0.0  
 Cypress 5.2.1  
+Cypress Axe 0.8.1  
 
 Integrated with Github Actions for running build and tests.
 
