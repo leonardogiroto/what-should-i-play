@@ -2,8 +2,23 @@
 context('Games List', () => {
 
   beforeEach(() => {
-    cy.visit('http://localhost:4200/')
+    cy.visit('http://localhost:4200/');
+    cy.injectAxe();
   })
+
+  it('should find no detectable a11y violations', () => {
+    cy.configureAxe({
+      // Issue regarding Angular Material Select
+      rules: [{
+        id: "aria-required-children",
+        enabled: false,
+      }],
+    });
+    cy.checkA11y(null, {
+      includedImpacts: ['critical']
+    });
+  })
+  
 
   it('should filter list on player count selection', () => {
 
