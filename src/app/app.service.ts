@@ -6,7 +6,8 @@ export class AppService {
 
   public getGamesList(
     playersCount?: number | string,
-    duration?: string
+    duration?: string,
+    format?: 'online' | 'offline'
   ): Array<Game> {
     let gamesList = GamesList;
 
@@ -16,6 +17,10 @@ export class AppService {
 
     if (duration) {
       gamesList = this._filterByDuration(gamesList, duration);
+    }
+
+    if (format) {
+      gamesList = this._filterByFormat(gamesList, format);
     }
 
     return gamesList;
@@ -47,5 +52,9 @@ export class AppService {
 
   private _filterByDuration(games: Array<Game>, duration: string): Array<Game> {
     return games.filter(game => game.duration === duration);
+  }
+
+  private _filterByFormat(games: Array<Game>, format: 'online' | 'offline' | 'both'): Array<Game> {
+    return games.filter(game => game.format === format || game.format === 'both');
   }
 }

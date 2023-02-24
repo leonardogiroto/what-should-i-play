@@ -46,7 +46,7 @@ describe('AppComponent', () => {
 
     app.playersControl.setValue(4);
     fixture.detectChanges();
-    expect(mockService.getGamesList).toHaveBeenCalledWith(4, '');
+    expect(mockService.getGamesList).toHaveBeenCalledWith(4, '', '' as any);
   });
 
   it('should filter games when duration filter is triggered', () => {
@@ -60,7 +60,7 @@ describe('AppComponent', () => {
 
     app.durationControl.setValue('variable');
     fixture.detectChanges();
-    expect(mockService.getGamesList).toHaveBeenCalledWith('', 'variable');
+    expect(mockService.getGamesList).toHaveBeenCalledWith('', 'variable', '' as any);
   });
 
   it('should filter games when both filters are triggered', () => {
@@ -75,6 +75,6 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     app.durationControl.setValue('variable');
     fixture.detectChanges();
-    expect(mockService.getGamesList).toHaveBeenCalledWith(4, 'variable');
+    expect(mockService.getGamesList).toHaveBeenCalledWith(4, 'variable', '' as any);
   });
 });

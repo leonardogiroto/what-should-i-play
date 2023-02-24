@@ -6,6 +6,7 @@ const MOCK_GAMES_LIST: Array<Game> = [{
   description: 'Mock description',
   link: 'https://www.mocklink.com/',
   duration: 'fast',
+  format: 'offline',
   minNumberOfPlayers: 2,
   maxNumberOfPlayers: 10,
 }, {
@@ -13,18 +14,21 @@ const MOCK_GAMES_LIST: Array<Game> = [{
   description: 'Mock description',
   link: 'https://www.mocklink.com/',
   duration: 'medium',
+  format: 'offline',
   minNumberOfPlayers: 3,
 }, {
   name: 'Mock',
   description: 'Mock description',
   link: 'https://www.mocklink.com/',
   duration: 'long',
+  format: 'offline',
   maxNumberOfPlayers: 4,
 }, {
   name: 'Mock',
   description: 'Mock description',
   link: 'https://www.mocklink.com/',
   duration: 'variable',
+  format: 'offline',
   minNumberOfPlayers: 4,
   maxNumberOfPlayers: 8,
 }];

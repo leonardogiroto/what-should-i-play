@@ -7,6 +7,7 @@ const MOCK_GAME_NOTAG: Game = {
   name: 'Mock',
   description: 'Mock description',
   link: 'https://www.mocklink.com/',
+  format: 'offline',
   duration: 'variable',
   minNumberOfPlayers: 2,
   maxNumberOfPlayers: 4,

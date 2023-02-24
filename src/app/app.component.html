@@ -5,6 +5,7 @@
     <app-filters
       [playersControl]="playersControl"
       [durationControl]="durationControl"
+      [formatControl]="formatControl"
     ></app-filters>
 
     <p class="description">
@@ -12,10 +13,12 @@
     </p>
   
     <section id="Games">
+      
       <a
         *ngFor="let game of filteredGameList"
-        [href]="game.link"
-        target="_blank"
+        [href]="game.link ? game.link : '#'"
+        [target]="game.link ? '_blank' : '_self'"
+        [ngStyle]="{'pointer-events': game.link ? 'initial' : 'none'}"
         rel="noopener noreferrer"
       >
         <app-game-card

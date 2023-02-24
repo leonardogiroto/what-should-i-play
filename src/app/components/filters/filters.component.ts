@@ -10,5 +10,6 @@ export class FiltersComponent {
 
   @Input() playersControl: FormControl;
   @Input() durationControl: FormControl;
+  @Input() formatControl: FormControl;
 
 }
