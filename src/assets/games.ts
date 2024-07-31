@@ -243,8 +243,8 @@ export const GamesList: Array<Game> = [{
   tags: ['jogo de bebida'],
   format: 'both'
 }, {
-  name: 'Desenhando Com Impostor',
-  description: 'Uma pessoa escreve em segredo em pequenas folhas uma palavra para desenharem e em uma delas "Impostor". Destribua as folhas aleatoriamente. Pegue uma folha de papel e a cada turno uma pessoa incrementa o desenho. O "Impostor" não sabe o que é o desenho. Se ele quiser adivinhar, ele se revela e chuta. Se acertar, ganha. As pessoas podem votar em alguém como impostor e se acertarem, ganham, se errarem, perdem.',
+  name: 'Desenho Impostor',
+  description: 'Uma pessoa escreve em segredo em pequenas folhas uma palavra para desenharem e em uma delas "Impostor". Destribua as folhas aleatoriamente. Em uma folha de papel, a cada turno uma pessoa incrementa o desenho. O "Impostor" não sabe o que é o desenho. Se ele quiser adivinhar, se revela e chuta; se acertar ganha. As pessoas podem votar em alguém como impostor e se acertarem, ganham.',
   duration: 'fast',
   minNumberOfPlayers: 4,
   tags: [],
